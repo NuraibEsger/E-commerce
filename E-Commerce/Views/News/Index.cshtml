@@ -1,0 +1,41 @@
+﻿@{
+	ViewData["Title"] = "News Page";
+}
+
+@model NewsIndexViewModel
+
+@section Paragraph{
+	<p>Organic Information</p>
+}
+
+@section Header{
+	<h1>News Article</h1>
+}
+
+<!-- latest news -->
+<div class="latest-news mt-150 mb-150">
+	<div class="container">
+		<div class="row">
+			<partial name="_NewsPartialView" model="Model" />
+		</div>
+
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<div class="pagination-wrap">
+							<ul>
+								<li><a href="#">Prev</a></li>
+								<li><a href="#">1</a></li>
+								<li><a class="active" href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">Next</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end latest news -->
