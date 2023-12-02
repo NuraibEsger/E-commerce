@@ -32,7 +32,7 @@
 		<div class="row">
 			@foreach (var product in Model.Products)
 			{
-				<partial name="_ProductPartial" model="product" />
+				@await Component.InvokeAsync("Products",product)
 			}
 		</div>
 		

@@ -1,4 +1,5 @@
-﻿@{
+﻿@using E_Commerce.Entities;
+@{
 	ViewData["Title"] = "Cart Page";
 }
 
@@ -9,6 +10,8 @@
 @section Header{
 	<h1>Cart</h1>
 }
+
+@model CartIndexVM
 
 <!-- cart -->
 <div class="cart-section mt-150 mb-150">
@@ -30,25 +33,9 @@
 						<tbody>
 							<tr class="table-body-row">
 								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="~/img/products/product-img-1.jpg" alt=""></td>
-								<td class="product-name">Strawberry</td>
-								<td class="product-price">$85</td>
-								<td class="product-quantity"><input type="number" placeholder="0"></td>
-								<td class="product-total">1</td>
-							</tr>
-							<tr class="table-body-row">
-								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="~/img/products/product-img-2.jpg" alt=""></td>
-								<td class="product-name">Berry</td>
-								<td class="product-price">$70</td>
-								<td class="product-quantity"><input type="number" placeholder="0"></td>
-								<td class="product-total">1</td>
-							</tr>
-							<tr class="table-body-row">
-								<td class="product-remove"><a href="#"><i class="far fa-window-close"></i></a></td>
-								<td class="product-image"><img src="~/img/products/product-img-3.jpg" alt=""></td>
-								<td class="product-name">Lemon</td>
-								<td class="product-price">$35</td>
+								<td class="product-image"><img src="~/img/@Model.Product.ImagePath" alt=""></td>
+								<td class="product-name">@Model.Product.Name</td>
+								<td class="product-price">$@Model.Product.Price</td>
 								<td class="product-quantity"><input type="number" placeholder="0"></td>
 								<td class="product-total">1</td>
 							</tr>

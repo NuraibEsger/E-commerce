@@ -8,7 +8,7 @@
 			</div>
 			<h3>@Model.Name</h3>
 			<p class="product-price"><span>Per Kg</span> @Model.Price$ </p>
-			<a asp-controller="Cart"  class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+			<a asp-controller="Cart" asp-action="Index" asp-route-id="@Model.Id" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
 		</div>
 	</div>
 
