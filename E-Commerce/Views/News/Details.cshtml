@@ -10,6 +10,8 @@
 	<h1>Single Article</h1>
 }
 
+@model NewsDetailsVM
+
 <!-- single article section -->
 <div class="mt-150 mb-150">
 	<div class="container">
@@ -17,7 +19,9 @@
 			<div class="col-lg-8">
 				<div class="single-article-section">
 					<div class="single-article-text">
-						<div class="single-artcile-bg"></div>
+						<div class="single-artcile-bg">
+							<img src="~/img/@Model.News.ImagePath" alt="">
+						</div>
 						<p class="blog-meta">
 							<span class="author"><i class="fas fa-user"></i> Admin</span>
 							<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>

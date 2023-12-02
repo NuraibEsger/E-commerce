@@ -46,7 +46,7 @@
 					<div class="main-menu-wrap">
 						<!-- logo -->
 						<div class="site-logo">
-							<a asp-controller="Home">
+							<a asp-controller="Home" asp-action="Index">
 								<img src="~/img/logo.png" alt="">
 							</a>
 						</div>
@@ -55,26 +55,26 @@
 						<nav class="main-menu">
 							<ul>
 								<li class="current-list-item">
-									<a asp-controller="Home"></a>
+									<a asp-controller="Home" asp-action="Index"></a>
 									<ul class="sub-menu">
 										<li><a asp-controller="Home">Static Home</a></li>
 									</ul>
 								</li>
-								<li><a asp-controller = "About">About</a></li>
+								<li><a asp-controller="About" asp-action="Index">About</a></li>
 								<li>
-									<a asp-controller="News">News</a>
+									<a asp-controller="News" asp-action="Index">News</a>
 									<ul class="sub-menu">
-										<li><a asp-controller="News">News</a></li>
-										<li><a asp-controller="SingleNews">Single News</a></li>
+										<li><a asp-controller="News" asp-action="Index">News</a></li>
+										<li><a asp-controller="News" asp-action="Details">Single News</a></li>
 									</ul>
 								</li>
-								<li><a asp-controller="Contact">Contact</a></li>
+								<li><a asp-controller="Contact" asp-action="Index">Contact</a></li>
 								<li>
 									<a asp-controller="Shops">Shop</a>
 									<ul class="sub-menu">
-										<li><a asp-controller="Shops">Shop</a></li>
-										<li><a asp-controller="SingleProduct">Single Product</a></li>
-										<li><a asp-controller="Cart">Cart</a></li>
+										<li><a asp-controller="Shops" asp-action="Index">Shop</a></li>
+										<li><a asp-controller="Shops" asp-action="Details">Single Product</a></li>
+										<li><a asp-controller="Cart" asp-action="Index">Cart</a></li>
 									</ul>
 								</li>
 								<li>

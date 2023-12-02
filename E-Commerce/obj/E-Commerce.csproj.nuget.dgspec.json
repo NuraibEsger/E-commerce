@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Projects\\E-commerce\\E-Commerce\\E-Commerce.csproj": {}
+    "C:\\Users\\User\\Desktop\\Projects\\E-Commerce\\E-Commerce\\E-Commerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Projects\\E-commerce\\E-Commerce\\E-Commerce.csproj": {
+    "C:\\Users\\User\\Desktop\\Projects\\E-Commerce\\E-Commerce\\E-Commerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projects\\E-commerce\\E-Commerce\\E-Commerce.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Projects\\E-Commerce\\E-Commerce\\E-Commerce.csproj",
         "projectName": "E-Commerce",
-        "projectPath": "C:\\Users\\User\\Desktop\\Projects\\E-commerce\\E-Commerce\\E-Commerce.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Projects\\E-Commerce\\E-Commerce\\E-Commerce.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Projects\\E-commerce\\E-Commerce\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Projects\\E-Commerce\\E-Commerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

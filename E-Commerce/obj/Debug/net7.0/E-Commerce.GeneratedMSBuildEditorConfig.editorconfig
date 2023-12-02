@@ -9,61 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_Commerce
 build_property.RootNamespace = E_Commerce
-build_property.ProjectDir = C:\Users\User\Desktop\Projects\E-commerce\E-Commerce\
+build_property.ProjectDir = C:\Users\User\Desktop\Projects\E-Commerce\E-Commerce\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Projects\E-commerce\E-Commerce
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Projects\E-Commerce\E-Commerce
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/404/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/404/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcNDA0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/About/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Cart/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Contact/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/News/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/News/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Shared/_NewsPartialView.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OZXdzUGFydGlhbFZpZXcuY3NodG1s
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Shared/_NewsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OZXdzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/Shops/Index.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Shared/_ProductPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Shops/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/Shops/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/SingleNews/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlTmV3c1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/SingleProduct/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUHJvZHVjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Desktop/Projects/E-commerce/E-Commerce/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/Projects/E-Commerce/E-Commerce/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
